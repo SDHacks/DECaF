@@ -12,10 +12,13 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.copy('resources/assets/vendor/bootstrap/dist/css/bootstrap.css', 'public/css/');
-    mix.copy('resources/assets/vendor/bootstrap/dist/css/bootstrap-theme.css', 'public/css/');
-    mix.copy('resources/assets/vendor/bootstrap/dist/css/bootstrap.css.map', 'public/css/');
-    mix.copy('resources/assets/vendor/bootstrap/dist/css/bootstrap-theme.css.map', 'public/css/');
+    mix.less([
+	'../vendor/bootstrap/less/bootstrap.less',
+	'../vendor/startbootstrap-grayscale/less/grayscale.less',
+	'app.less']);
 
-    mix.less('app.less');
+    mix.scripts(['../assets/vendor/jquery/dist/jquery.js'], 'public/js/jquery.js')
+	.scriptsIn(['resources/assets/vendor/bootstrap/js'], 'public/js/bootstrap.js')
+	.scripts(['../assets/vendor/startbootstrap-grayscale/js/grayscale.js'], 'public/js/grayscale.js')
+	.scriptsIn(['resources/js'], 'public/js/app.js');
 });

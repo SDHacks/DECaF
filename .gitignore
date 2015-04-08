@@ -1,4 +1,6 @@
 vendor/
 resources/assets/vendor/
+public/css/
+public/js/
 /node_modules
 .env
