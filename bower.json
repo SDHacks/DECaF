@@ -1,0 +1,9 @@
+{
+  "name": "DECaF",
+  "version": "0.0.0",
+  "license": "MIT",
+  "directory": "resources/assets/vendor",
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
