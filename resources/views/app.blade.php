@@ -93,5 +93,8 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <!-- App-spacific javascript -->
+    <script src="js/app.js"></script>
 </body>
 </html>
