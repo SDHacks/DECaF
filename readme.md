@@ -1,4 +1,6 @@
-## DECaF Website! ##
+## DECaF Website ##
+
+![Alt text](http://tesc.ucsd.edu/assets/decaf-logo-2015-d8ead351f256014c7b6239482999a3b0.jpg)
 
 ### About ###
 This is the new, Laravel-based website for DECaF, the Disciplines of Engineering Career Fair at UCSD. This project is run by TESC, The Triton Engineering Student council. For more information, please contact TESC leadership.
@@ -6,7 +8,7 @@ This is the new, Laravel-based website for DECaF, the Disciplines of Engineering
 ### Setting up your enviroment ###
 - Ensure that you have downloaded homestead and composer. Documentation about installing Composer can be found [here](http://laravel.com/docs/5.0/installation) and documentation regardiing homestead is [here](http://laravel.com/docs/5.0/installation)
 
-- Download and install the latest version of Node.js and npm (The node package manager) from (here)[https://nodejs.org/] or by running `brew install node`
+- Download and install the latest version of Node.js and npm (The node package manager) from [here](https://nodejs.org/) or by running `brew install node`
 
 - Install gulp and bower globally
 ```bash
