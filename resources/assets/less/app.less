@@ -1,0 +1,82 @@
+body {
+	font-family: 'Roboto', sans-serif;
+    color: #000;
+    background-color: #FFF;
+}
+
+a {
+	color: #459db5;
+}
+
+.navbar-custom {
+	    border-bottom: 0px solid rgba(255,255,255,.3);
+	    background-color: #fff;
+}
+
+.navbar-custom .navbar-brand {
+    display : none;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    color: #1d9b6c;
+}
+
+.navbar-custom .nav li a:hover {
+    color: rgba(128,128,128,.8);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: ##1d9b6c;
+}
+
+@media(min-width:1px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out, display .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out, display .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out, color .5s ease-in-out, display .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #fff;
+    }
+
+    .navbar-custom.top-nav-collapse a {
+        color: #000;
+    }
+
+    .navbar-custom .navbar-brand.brand-shown {
+        display: block !important;
+    }
+}
+
+.intro {
+    background: url(../img/Hexagon-3-Darker.png) no-repeat bottom center scroll;
+}
+
+.download-section {
+    background: url(../img/DECaFbg2-Darker.png) no-repeat center center scroll;
+}
+
+@media(min-width:767px) {
+    .download-section {
+        padding: 200px 0;
+    }
+}
+
+.btn-default {
+    border: 1px solid #459db5;
+    color: #459db5;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid #459db5;
+    background-color: #459db5;
+}

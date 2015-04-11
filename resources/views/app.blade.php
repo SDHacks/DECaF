@@ -14,8 +14,8 @@
     <!-- Bootstrap Core CSS -->
    <link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet" type="text/css" />
    <link href="{{ asset('/css/grayscale.css') }}" rel="stylesheet" type="text/css" />
-   <link href="{{ asset('/css/app.css') }}" rel="stylesheet" type="text/css" />
    <link href="{{ asset('/css/font-awesome.css') }}" rel="stylesheet" type="text/css" />
+   <link href="{{ asset('/css/app.css') }}" rel="stylesheet" type="text/css" />
 
     <!-- Custom Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
