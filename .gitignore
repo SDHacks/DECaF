@@ -2,6 +2,7 @@ vendor/
 resources/assets/vendor/
 *.sqlite
 public/css/
+public/fonts/
 public/js/
 /node_modules
 .env
